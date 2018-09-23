@@ -9,10 +9,5 @@ namespace GameChallenge
     class Hero : Character
     {
         public int DudePower { get; set; }
-
-        public Hero()
-        {
-            DudePower = 100;
-        }
     }
 }

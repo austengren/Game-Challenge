@@ -9,10 +9,5 @@ namespace GameChallenge
     class Enemy : Character
     {
         public int BadAdditude { get; set; }
-
-        public Enemy()
-        {
-            BadAdditude = 100;
-        }
     }
 }
