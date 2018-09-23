@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace GameChallenge
 {
-    class Program
+    class Enemy : Character
     {
-        static void Main(string[] args)
+        public int BadAdditude { get; set; }
+
+        public Enemy()
         {
-            ProgramUI program = new ProgramUI();
-            program.Run();
+            BadAdditude = 100;
         }
     }
 }
