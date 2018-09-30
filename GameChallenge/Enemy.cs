@@ -8,6 +8,6 @@ namespace GameChallenge
 {
     class Enemy : Character
     {
-        public int BadAdditude { get; set; }
+        public string BumMessage { get; set; }
     }
 }

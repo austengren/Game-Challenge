@@ -8,6 +8,6 @@ namespace GameChallenge
 {
     class Hero : Character
     {
-        public int DudePower { get; set; }
+        public string DudeMessage { get; set; }
     }
 }
